@@ -1,7 +1,5 @@
 def ack(a,b):
-     if a==b:
-         return b+1
-     elif a>0 and b==0:
+     if a>0 and b==0:
          return ack(a-1,1)
      elif a>0 and b>0:
          return ack(a-1,ack(a,b-1))
