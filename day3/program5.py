@@ -11,8 +11,6 @@ for i in range(le2):
      li2.append(n)
 
 for i in li1:
-     if i not in li2:
-         pass
-     else:
+     if i in li2:
          print(i)
          
